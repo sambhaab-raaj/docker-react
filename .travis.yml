@@ -9,3 +9,4 @@ before_install:
 
 script:
   - docker run -e CI=true test-image npm run test
+# trigger build
